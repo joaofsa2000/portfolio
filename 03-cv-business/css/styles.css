@@ -265,7 +265,12 @@ button{ outline: 0; border: 0; background: none; cursor: pointer; }
 .skills-section .expert{ margin-top: 10px; display: inline-block; padding: 1px 25px 0; 
 	border-radius: 5px; background: rgb(46, 70, 115); color: #fff; }
 
-	
+/* ---------------------------------
+10. CONTACT SECTION 
+--------------------------------- */	
+
+.contact-section .heading h6{margin: 5px;}
+
 /* LINE PROGRESSBAR */
 	
 .line-progress{ position: relative; padding-bottom: 25px; }
@@ -274,25 +279,6 @@ button{ outline: 0; border: 0; background: none; cursor: pointer; }
 	font-weight: 500; color: #777!important; }
 
 .line-progress .progress-title{ position: absolute; bottom: 0; left: 0; color: #777; }
-
-
-/* REDIAL PROGRESS SECTION */
-
-.radial-progress-section{ border: 0; position: relative; background-size: cover; 
-	z-index: 1; background-image: url(../../images/slider-4-1920x600.jpg); color: #fff; }
-
-.radial-progress-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; 
-	left: 0; right: 0; background: rgba(0,0,0, .8); }
-	
-.radial-progress{ position: relative; max-width: 170px; margin: 0 auto; }
-
-.radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
-	padding-bottom: 25px!important; color: rgb(145, 163, 224)!important; }
-
-.radial-progress .progressbar-text:after{ content:'%'; }
-
-.radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
-	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #fff; }
 
 
 
