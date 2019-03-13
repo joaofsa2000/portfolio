@@ -102,7 +102,8 @@ button{ outline: 0; border: 0; background: none; cursor: pointer; }
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 .margin-tb-50{ margin-top: 50px; margin-bottom: 50px; }
 
-.font-blue{ color: rgb(255, 255, 255); }
+.font-blue{ color: rgb(180, 198, 231); }
+.font-white{ color: rgb(255, 255, 255); }
 
 .font-semi-white{ color: #ddd; }
 
